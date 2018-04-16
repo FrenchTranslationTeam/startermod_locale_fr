@@ -35,34 +35,6 @@ $.getJSON('/stonehearth/locales/supported_languages.json', function(data) {
       if (!language || !(language in supportedLanguages)) {
          language = 'en'
       }
-
       init_i18n(language);
-
-      // var languageData = supportedLanguages[language];
-      // var files = [];
-
-      // if (languageData.path) {
-      //    files = [languageData.path];
-      // }
-
-      // if (languageData.paths) {
-      //    files = languageData.paths;
-      // }
-
-      // var translate_data = {};
-      // var count = 0;
-      
-      // for (var i = 0; i < files.length; i++) {
-
-      //    $.getJSON(files[i], function(data) {
-      //       $.extend(true, translate_data, data);
-      //       count++;
-
-      //       if (files.length == count) {
-      //          i18n.addResourceBundle(language, 'stonehearth', translate_data);
-      //       }
-      //    })
-      // };
-
    });
 });
