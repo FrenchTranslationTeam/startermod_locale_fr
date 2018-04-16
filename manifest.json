@@ -7,10 +7,6 @@
 		"client_only" : true
 	},
 	"ui": {
-		"less": [
-			"file(ui/root/css/base.less)",
-			"file(ui/root/css/variables.less)"
-		],
 		"js": [
 			"file(ui/root/js/loadLocales.js)"
 		]
@@ -18,12 +14,11 @@
 	"aliases" : {
 	},
 	"mixintos" : {
-      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+		"stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
 	},
 	"overrides" : {
 		"stonehearth/locales/fr-FR.json": "file(translations/stonehearth/fr-FR.json)",
-		"rayyas_children/locales/fr-FR.json": "file(translations/rayyas_children/fr-FR.json)",
-		"frostfeast/locales/fr-FR.json": "file(translations/frostfeast/fr-FR.json)"
+		"rayyas_children/locales/fr-FR.json": "file(translations/rayyas_children/fr-FR.json)"
 	},
 	"components" : {
 	},
