@@ -11025,7 +11025,7 @@
             },
             "iron_mail_recipe": {
                "description": "Un ensemble complet de lourdes et solides mailles de fer.",
-               "recipe_name": "Côte de maille en fer",
+               "recipe_name": "Cotte de mailles en fer",
                "flavor": "Mais il a caché son coeur dans une forteresse d'acier, pour qu'aucune fée ne pourrait y toucher. - Chanson de Evermarth"
             },
             "iron_pike_recipe": {
@@ -11154,7 +11154,7 @@
                "flavor": "Même les scouts sont ornés d'or"
             },
             "silver_mail_recipe": {
-               "recipe_name": "Côte de maille en argent",
+               "recipe_name": "Cotte de mailles en argent",
                "description": "La meilleur armure... pour l'instant.",
                "flavor": "Cid aimait la couleur des fraises"
             },
