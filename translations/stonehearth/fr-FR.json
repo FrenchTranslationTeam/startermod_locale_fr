@@ -889,7 +889,7 @@
                "confirm": "Départ",
                "prompt": "Choisissez un équipage pour partir dans une nouvelle aventure, et des objets à emmener !"
             },
-            "town_founding": {
+            "town_upgrade_choice": {
                "title": "Déclaration officiel du règlement",
                "name_header": "Choisissez un nom pour votre règlement !",
                "name_prompt": "Nom:",
@@ -4836,7 +4836,7 @@
             "stairs": {
                "display_name": "Escaliers",
                "description": "Monte ou descend"
-            }
+            },
             "building2": {
                "structure": {
                   "display_name": "Structure",
