@@ -822,7 +822,7 @@
                "buy_tab": "Acheter",
                "sell_tab": "Vendre",
                "shop_gold_label": "Or",
-               "shopkeeper_gold_label": "Marchand d'or",
+               "shopkeeper_gold_label": "Or du Marchand<br><br><br>",
                "not_enough_gold_tooltip": "Pas assez d'or !",
                "shopkeeper_not_enough_gold_tooltip": "Le commerçant n'a pas assez d'or"
             },
@@ -4013,220 +4013,220 @@
                                  "000": "Mise à jour quotidienne boostée par le Morale de vos citoyens"
                               }
                            },
-						   "shrine_upgrade_guildmaster": {
-							  "achievements": {
-								"001": "Fontaines & Décorations  pour le Maçon",
-								"003": "Décorations pour le forgeron",
-								"000": "Qualité de création Maître débloqué",
-								"002": "Topiaire pour l'Herboriste et clôtures pour lemenuisier",
-								"004": "Musique de niveau 3"
-							  }
-						   },
-						   "shrine_upgrade_valor": {
-							  "achievements": {
-								"001": "Recette de Portcullis pour l'ingénieur",
-								"003": "Recettes de décoration  pour le forgeron",
-								"000": "Recettes d'armes légendaires",
-								"002": "Statues & Windows  pour le Maçon",
-								"004": "Musique de niveau 3"
-							  }
-						   },
-						   "shrine_upgrade_deity": {
-							  "achievements": {
-								"001": "Arbustes pour l'Herboriste",
-								"003": "Fountaine de Chance pour le Maçon",
-								"000": "Buffs Quotidien de Chance",
-								"002": "Décorations pour le forgeron",
-								"004": "Musique de niveau 3"
-							  }
-						   },
-						   "shrine_choice_explanation": {
-							  "dialog_tree_info": {
-								 "dialog_nodes": {
-									"clergy": {
-									   "bulletin_message": {
-										  "00": "Salutations, je m'appelle Ember Minton et je suis un missionnaire pour l'Église de l'Abondance, et nous serions ravis qu'un comté comme le vôtre compte parmi nos Cantons."
-									   },
-									   "bulletin_title": "Le Clergé",
-									   "dialog_title": "Le Clergé",
-									   "choice_000": "Bienvenue, Ember"
-									},
-									"makers": {
-									   "bulletin_message": {
-										  "00": "Je suis Marak Azael, ravi de vous rencontrer, qui chatouille mes moustaches pour voir une colonie comme la vôtre, assemblée à partir de rien en un rien de temps.<br><br>L'Ascendance même a été construite avec une scie et martelez par de beaux artisans comme vous, c'est pourquoi la Guilde est si importante pour moi et pourquoi je voulais vous rendre visite."
-									   },
-									   "bulletin_title": "Le Maître de la Guilde",
-									   "dialog_title": "Le Maître de la Guilde",
-									   "choice_000": "La Guilde ?"
-									},
-									"summary": {
-									   "bulletin_message": {
-										  "00": "Alors, maintenant vous avez rencontré les gens qui m'ont suivi - je suis impartial, ici, donc c'est à vous de décider qui vous voulez en tant que sponsor, je peux dire qu'ils sont tous un bons choix, cependant !<br><br>Je vais leur faire découvrir un peu la ville, mais je vais fournir les plans pour chacune de leurs fontaines, sanctuaires et autres joyeusetés à vos maçons.<br><br>Je vous verrai à la cérémonie de dédicace lorsque vous aurez pris votre décision !"
-									   },
-									   "bulletin_title": "Mer conclut",
-									   "dialog_title": "Mer conclut",
-									   "choice_000": "Ça sonne bien !"
-									},
-									"military_cont": {
-									   "bulletin_message": {
-										  "00": "Un canton dédié à l'exemple valeureux de Cid peut servir de point d'ancrage pour toute une région, et encourager de nouveaux colons à forger leurs propres nouveaux avant-postes.<br><br>Si vous choisissez de construire un mémorial à Cid, La Garde serait heureuse de partager avec vous une partie de nos connaissances sur les armes dans le cadre de la cérémonie de dédicace. <br><br><font size=-1><i>Construire la Valeur du Cid vous accordera des recettes pour de nouvelles armes de haut niveau.</i></font>"
-									   },
-									   "bulletin_title": "Capitaine Anwyn Torresi",
-									   "dialog_title": "Capitaine Anwyn Torresi",
-									   "choice_000": "Merci"
-									},
-									"clergy_cont": {
-									   "bulletin_message": {
-										  "00": "C'est l'adage de l'Église <i>'La fortune favorise le Juste'</i>, et les fontaines bénies de Plenty ont en effet été connues pour avoir des effets presque magiques sur la santé et la rusticité des citoyens d'une ville.<br><br>S'il vous plaît envisagez de montrer au monde que votre ville sera un exemple de bonté en construisant un sanctuaire conçu par l'église.<br><br><font size=-1><i>Construire une fontaine d'abondance accordera à vos citadins un buff quotidien aléatoire. Tente ta chance !</i></font>"
-									   },
-									   "bulletin_title": "Ember Minton",
-									   "dialog_title": "Ember Minton",
-									   "choice_000": "Merci"
-									},
-									"military": {
-									   "bulletin_message": {
-										  "00": "Bonjour - Je suis Anwyn Torresi, Capitaine de la Garde de Sa Majesté. Elle m'envoie avec ses remerciements pour avoir colonisé cette terre sauvage, et pour la protéger contre les animaux et monstres.<br><br>Nous, dans la Garde, suivons l'exemple du Chevalier Cid, croyant que se tenir debout et courageux contre la nature sauvage est le seul moyen pour l'Ascendance de récupérer cette terre perdue.<br><br>Vous avez rendu un grand service à l'Ascendance en plantant votre bannière ici."
-									   },
-									   "bulletin_title": "Le capitaine",
-									   "dialog_title": "Le capitaine",
-									   "choice_000": "Un plaisir, Capitaine"
-									},
-									"makers_cont": {
-									   "bulletin_message": {
-										  "00": "La guilde des artisans voyons ! Nous croyons que l'habileté d'un artisan doit être respectée et ses œuvres célébrées.<br><br>Nous, membres de la Guilde, aimerions que ce canton soit considéré comme un endroit propice à la maîtrise de l'artisanat - et, après tout, nous ne pouvons reconnaitre un chef-d'œuvre que lorsque nous le voyons !<br><br><font size=-1><i>Vouer un hommage à la Compétence du maître de guilde permettra de créer des meubles et des décorations de qualité professionnelle, qui sont considérablement meilleurs que ceux d'excellente qualité.</i></font>"
-									   },
-									   "bulletin_title": "Marak Azael",
-									   "dialog_title": "Marak Azael",
-									   "choice_000": "Une telle vigueur !"
-									},
-									"intro": {
-									   "bulletin_message": {
-										  "00": "Bonjour à nouveau, [str(i18n_data.town_name)]! Heureux de vous voir tous en pleine forme - pas que je m'attendais à quelque chose de différent !<br><br>En fait, j'ai amené des gens avec moi cette fois - je vais les laisser se présenter et vous dire pourquoi ils sont venus."
-									   },
-									   "bulletin_title": "Mer Burlyhands est arrivé !",
-									   "dialog_title": "Mer revient, avec des invités !",
-									   "choice_000": "Oh, d'accord !",
-									   "choice_001": "Nous avons déjà décidé !"
+                           "shrine_upgrade_guildmaster": {
+                              "achievements": {
+                                 "001": "Fontaines & Décorations  pour le Maçon",
+                                 "003": "Décorations pour le forgeron",
+                                 "000": "Qualité de création Maître débloqué",
+                                 "002": "Topiaire pour l'Herboriste et clôtures pour lemenuisier",
+                                 "004": "Musique de niveau 3"
+                              }
+                           },
+                           "shrine_upgrade_valor": {
+                              "achievements": {
+                                 "001": "Recette de Portcullis pour l'ingénieur",
+                                 "003": "Recettes de décoration  pour le forgeron",
+                                 "000": "Recettes d'armes légendaires",
+                                 "002": "Statues & Windows  pour le Maçon",
+                                 "004": "Musique de niveau 3"
+                              }
+                           },
+                           "shrine_upgrade_deity": {
+                              "achievements": {
+                                 "001": "Arbustes pour l'Herboriste",
+                                 "003": "Fountaine de Chance pour le Maçon",
+                                 "000": "Buffs Quotidien de Chance",
+                                 "002": "Décorations pour le forgeron",
+                                 "004": "Musique de niveau 3"
+                              }
+                           },
+                           "shrine_choice_explanation": {
+                              "dialog_tree_info": {
+                                  "dialog_nodes": {
+                                 	"clergy": {
+			                           "bulletin_message": {
+			                              "00": "Salutations, je m'appelle Ember Minton et je suis un missionnaire pour l'Église de l'Abondance, et nous serions ravis qu'un comté comme le vôtre compte parmi nos Cantons."
+			                           },
+			                           "bulletin_title": "Le Clergé",
+			                           "dialog_title": "Le Clergé",
+			                           "choice_000": "Bienvenue, Ember"
+                                 	},
+                                 	"makers": {
+			                           "bulletin_message": {
+			                              "00": "Je suis Marak Azael, ravi de vous rencontrer, qui chatouille mes moustaches pour voir une colonie comme la vôtre, assemblée à partir de rien en un rien de temps.<br><br>L'Ascendance même a été construite avec une scie et martelez par de beaux artisans comme vous, c'est pourquoi la Guilde est si importante pour moi et pourquoi je voulais vous rendre visite."
+			                           },
+			                           "bulletin_title": "Le Maître de la Guilde",
+			                           "dialog_title": "Le Maître de la Guilde",
+			                           "choice_000": "La Guilde ?"
+                                 	},
+                                 	"summary": {
+			                           "bulletin_message": {
+			                              "00": "Alors, maintenant vous avez rencontré les gens qui m'ont suivi - je suis impartial, ici, donc c'est à vous de décider qui vous voulez en tant que sponsor, je peux dire qu'ils sont tous un bons choix, cependant !<br><br>Je vais leur faire découvrir un peu la ville, mais je vais fournir les plans pour chacune de leurs fontaines, sanctuaires et autres joyeusetés à vos maçons.<br><br>Je vous verrai à la cérémonie de dédicace lorsque vous aurez pris votre décision !"
+			                           },
+			                           "bulletin_title": "Mer conclut",
+			                           "dialog_title": "Mer conclut",
+			                           "choice_000": "Ça sonne bien !"
+                                 	},
+                                 	"military_cont": {
+			                           "bulletin_message": {
+			                              "00": "Un canton dédié à l'exemple valeureux de Cid peut servir de point d'ancrage pour toute une région, et encourager de nouveaux colons à forger leurs propres nouveaux avant-postes.<br><br>Si vous choisissez de construire un mémorial à Cid, La Garde serait heureuse de partager avec vous une partie de nos connaissances sur les armes dans le cadre de la cérémonie de dédicace. <br><br><font size=-1><i>Construire la Valeur du Cid vous accordera des recettes pour de nouvelles armes de haut niveau.</i></font>"
+			                           },
+			                           "bulletin_title": "Capitaine Anwyn Torresi",
+			                           "dialog_title": "Capitaine Anwyn Torresi",
+			                           "choice_000": "Merci"
+                                 	},
+                                 	"clergy_cont": {
+			                           "bulletin_message": {
+			                              "00": "C'est l'adage de l'Église <i>'La fortune favorise le Juste'</i>, et les fontaines bénies de Plenty ont en effet été connues pour avoir des effets presque magiques sur la santé et la rusticité des citoyens d'une ville.<br><br>S'il vous plaît envisagez de montrer au monde que votre ville sera un exemple de bonté en construisant un sanctuaire conçu par l'église.<br><br><font size=-1><i>Construire une fontaine d'abondance accordera à vos citadins un buff quotidien aléatoire. Tente ta chance !</i></font>"
+			                           },
+			                           "bulletin_title": "Ember Minton",
+			                           "dialog_title": "Ember Minton",
+			                           "choice_000": "Merci"
+                                 	},
+                                 	"military": {
+			                           "bulletin_message": {
+			                              "00": "Bonjour - Je suis Anwyn Torresi, Capitaine de la Garde de Sa Majesté. Elle m'envoie avec ses remerciements pour avoir colonisé cette terre sauvage, et pour la protéger contre les animaux et monstres.<br><br>Nous, dans la Garde, suivons l'exemple du Chevalier Cid, croyant que se tenir debout et courageux contre la nature sauvage est le seul moyen pour l'Ascendance de récupérer cette terre perdue.<br><br>Vous avez rendu un grand service à l'Ascendance en plantant votre bannière ici."
+			                           },
+			                           "bulletin_title": "Le capitaine",
+			                           "dialog_title": "Le capitaine",
+			                           "choice_000": "Un plaisir, Capitaine"
+                                 	},
+                                 	"makers_cont": {
+			                           "bulletin_message": {
+			                              "00": "La guilde des artisans voyons ! Nous croyons que l'habileté d'un artisan doit être respectée et ses œuvres célébrées.<br><br>Nous, membres de la Guilde, aimerions que ce canton soit considéré comme un endroit propice à la maîtrise de l'artisanat - et, après tout, nous ne pouvons reconnaitre un chef-d'œuvre que lorsque nous le voyons !<br><br><font size=-1><i>Vouer un hommage à la Compétence du maître de guilde permettra de créer des meubles et des décorations de qualité professionnelle, qui sont considérablement meilleurs que ceux d'excellente qualité.</i></font>"
+			                           },
+			                           "bulletin_title": "Marak Azael",
+			                           "dialog_title": "Marak Azael",
+			                           "choice_000": "Une telle vigueur !"
+                                 	},
+                                 	"intro": {
+			                           "bulletin_message": {
+			                              "00": "Bonjour à nouveau, [str(i18n_data.town_name)]! Heureux de vous voir tous en pleine forme - pas que je m'attendais à quelque chose de différent !<br><br>En fait, j'ai amené des gens avec moi cette fois - je vais les laisser se présenter et vous dire pourquoi ils sont venus."
+			                           },
+			                           "bulletin_title": "Mer Burlyhands est arrivé !",
+			                           "dialog_title": "Mer revient, avec des invités !",
+			                           "choice_000": "Oh, d'accord !",
+			                           "choice_001": "Nous avons déjà décidé !"
                                     }
                                  }
                               }
                            },
                            "guild_dialog_1": {
-							  "dialog_tree_info": {
-								 "dialog_nodes": {
-									"msg2": {
-									   "bulletin_message": {
-										  "00": "Comme il se doit ! Avec de bons artisans comme eux, votre ville créera des chefs-d'œuvre en un rien de temps ! Je garderai un œil sur les produits artisanaux de [str(i18n_data.town_name)] au marché de la Capitale dans quelques mois !<br/><br/>Vos maisons ont l'air toutes aussi robustes. Mes compliments à vos travailleurs, ils semblent aussi savoir comment assembler les choses !"
-									   },
-									   "bulletin_title": "Marak continues",
-									   "dialog_title": "Marak Azael, Maître de Guilde",
-									   "choice_000": "Nous ferons de notre mieux !"
-									},
-									"msg3": {
-									   "bulletin_message": {
-										  "00": "Quoi qu'il en soit, je vous laisse retourner à votre Célébration ! Je vais aller chercher une pinte de quelque chose de fort et un bol de quelque chose de copieux!<br/><br/>Rappelez-vous, les mains pleines rendent une ville heureuse !"
-									   },
-									   "bulletin_title": "Marak continues",
-									   "dialog_title": "Marak vous frappe dans le dos",
-									   "choice_000": "Au Plaisir !"
-									},
-									"msg1": {
-									   "bulletin_message": {
-										  "00": "Hahaha ! Quel beau monument vous avez construit ! Bon niveau, carré, et toutes ses touches de finition que seul un œil exercé comme le mien peux vraiment apprécier !</br></br><font size=-1>Hein, comment avez-vous réussi à le faire briller autant ?</font>"
-									   },
-									   "bulletin_title": "Marak Azael éclate de rire",
-									   "dialog_title": "Marak Azael, Maître de Guilde",
-									   "choice_000": "Je vous remercie ! Notre maçon en est assez fier."
+                              "dialog_tree_info": {
+                                  "dialog_nodes": {
+                                 	"msg2": {
+			                           "bulletin_message": {
+			                              "00": "Comme il se doit ! Avec de bons artisans comme eux, votre ville créera des chefs-d'œuvre en un rien de temps ! Je garderai un œil sur les produits artisanaux de [str(i18n_data.town_name)] au marché de la Capitale dans quelques mois !<br/><br/>Vos maisons ont l'air toutes aussi robustes. Mes compliments à vos travailleurs, ils semblent aussi savoir comment assembler les choses !"
+			                           },
+			                           "bulletin_title": "Marak continues",
+			                           "dialog_title": "Marak Azael, Maître de Guilde",
+			                           "choice_000": "Nous ferons de notre mieux !"
+                                 	},
+                                 	"msg3": {
+			                           "bulletin_message": {
+			                              "00": "Quoi qu'il en soit, je vous laisse retourner à votre Célébration ! Je vais aller chercher une pinte de quelque chose de fort et un bol de quelque chose de copieux!<br/><br/>Rappelez-vous, les mains pleines rendent une ville heureuse !"
+			                           },
+			                           "bulletin_title": "Marak continues",
+			                           "dialog_title": "Marak vous frappe dans le dos",
+			                           "choice_000": "Au Plaisir !"
+                                 	},
+                                 	"msg1": {
+			                           "bulletin_message": {
+			                              "00": "Hahaha ! Quel beau monument vous avez construit ! Bon niveau, carré, et toutes ses touches de finition que seul un œil exercé comme le mien peux vraiment apprécier !</br></br><font size=-1>Hein, comment avez-vous réussi à le faire briller autant ?</font>"
+			                           },
+			                           "bulletin_title": "Marak Azael éclate de rire",
+			                           "dialog_title": "Marak Azael, Maître de Guilde",
+			                           "choice_000": "Je vous remercie ! Notre maçon en est assez fier."
                                     }
                                  }
                               }
                            },
                            "valor_dialog_1": {
-							  "dialog_tree_info": {
-								 "dialog_nodes": {
-									"msg2": {
-									   "bulletin_message": {
-										  "00": "Oh! Je vais bien, je me rappelais juste quelque chose.<br/><br/>Tu sais, je crois vraiment en l'Ascendance, que nous avons un destin pour reprendre ces terres perdues. Chaque nouvelle ville qui jaillit sert à renforcer ma croyance.<br/><br/>Mais ce sont les villes comme la vôtre, dédiées au soutien de notre valeureuse Garde, qui me réchauffent vraiment le cœur."
-									   },
-									   "bulletin_title": "Anwyn continues",
-									   "dialog_title": "Anwyn Torresi, Capitaine de la Garde",
-									   "choice_000": "Nous sommes honorés, Capitaine"
-									},
-									"msg3": {
-									   "bulletin_message": {
-										  "00": "J'ai apporté des plans pour les meilleures armes de la Garde, car vous avez amplement gagné le droit de les forger.<br/><br/>Maintenant, si mon service m'a appris quelque chose, c'est de manger un bon repas quand on m'en donne la chance. Je vais vous laisser à votre Célébration !"
-									   },
-									   "bulletin_title": "Anwyn continues",
-									   "dialog_title": "Anwyn Torresi, Capitaine de la Garde",
-									   "choice_000": "Au Plaisir !"
-									},
-									"msg1": {
-									   "bulletin_message": {
-										  "00": "Quel monument inspirant! Cela parle vraiment de l'héroïsme du Chevalier Cid.<br/><br/>Cela me rappelle encore une fois pourquoi je suis devenu un membre de la Garde. C'était il y a si longtemps ...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn regarde dans le lointain, les yeux brillants.)</font></p>"
-									   },
-									   "bulletin_title": "Anwyn s'approche, les yeux brillent",
-									   "dialog_title": "Anwyn Torresi, Capitaine de la Garde",
-									   "choice_000": "Anwyn? Es-tu..."
+                              "dialog_tree_info": {
+                                  "dialog_nodes": {
+                                 	"msg2": {
+			                           "bulletin_message": {
+			                              "00": "Oh! Je vais bien, je me rappelais juste quelque chose.<br/><br/>Tu sais, je crois vraiment en l'Ascendance, que nous avons un destin pour reprendre ces terres perdues. Chaque nouvelle ville qui jaillit sert à renforcer ma croyance.<br/><br/>Mais ce sont les villes comme la vôtre, dédiées au soutien de notre valeureuse Garde, qui me réchauffent vraiment le cœur."
+			                           },
+			                           "bulletin_title": "Anwyn continues",
+			                           "dialog_title": "Anwyn Torresi, Capitaine de la Garde",
+			                           "choice_000": "Nous sommes honorés, Capitaine"
+                                 	},
+                                 	"msg3": {
+			                           "bulletin_message": {
+			                              "00": "J'ai apporté des plans pour les meilleures armes de la Garde, car vous avez amplement gagné le droit de les forger.<br/><br/>Maintenant, si mon service m'a appris quelque chose, c'est de manger un bon repas quand on m'en donne la chance. Je vais vous laisser à votre Célébration !"
+			                           },
+			                           "bulletin_title": "Anwyn continues",
+			                           "dialog_title": "Anwyn Torresi, Capitaine de la Garde",
+			                           "choice_000": "Au Plaisir !"
+                                 	},
+                                 	"msg1": {
+			                           "bulletin_message": {
+			                              "00": "Quel monument inspirant! Cela parle vraiment de l'héroïsme du Chevalier Cid.<br/><br/>Cela me rappelle encore une fois pourquoi je suis devenu un membre de la Garde. C'était il y a si longtemps ...<br/><p align='right'><font size=-1 color='#cccccc'>(Anwyn regarde dans le lointain, les yeux brillants.)</font></p>"
+			                           },
+			                           "bulletin_title": "Anwyn s'approche, les yeux brillent",
+			                           "dialog_title": "Anwyn Torresi, Capitaine de la Garde",
+			                           "choice_000": "Anwyn? Es-tu..."
                                     }
                                  }
                               }
                            },
                            "deity_dialog_1": {
-							  "dialog_tree_info": {
-								 "dialog_nodes": {
-									"msg2": {
-									   "bulletin_message": {
-										  "00": "Alors que ce sanctuaire vous accorde sa bénédiction chaque jour, prenez un moment pour réfléchir sur le monde, ses mystères et ses nombreuses richesses.<br/><br/>Que votre ville soit toujours un foyer accueillant pour ses habitants et une source pour la générosité de l'Église de l'Abondance."
-									   },
-									   "bulletin_title": "Ember continues",
-									   "dialog_title": "Ember Minton, Missionnaire",
-									   "choice_000": "Nous ferons de notre mieux !"
-									},
-									"msg3": {
-									   "bulletin_message": {
-										  "00": "Maintenant, assez de platitudes sombres - allez profiter de la fête ! Je crois que j'ai vu Mer avec un gâteau plus tôt, j'aimerais bien mettre la main dessus..."
-									   },
-									   "bulletin_title": "Ember continues",
-									   "dialog_title": "Ember Minton, Missionnaire",
-									   "choice_000": "Au Plaisir !"
-									},
-									"msg1": {
-									   "bulletin_message": {
-										  "00": "<font size=-1>...et que cette ville deumeure florissante dans la fortune et la prospérité, aussi longtemps que le soleil brillera. Umbasa.</font><br/><br/>Oh ! Mes excuses, j'étais perdu dans mes prières.<br/><br/>Vous avez une ville vraiment merveilleuse ici, et je me sens privilégié d'être le missionnaire pour bénir ce beau monument."
-									   },
-									   "bulletin_title": "Ember fait face au sanctuaire",
-									   "dialog_title": "Ember Minton, Missionnaire",
-									   "choice_000": "Merci d'être venu"
+                              "dialog_tree_info": {
+                                  "dialog_nodes": {
+                                 	"msg2": {
+			                           "bulletin_message": {
+			                              "00": "Alors que ce sanctuaire vous accorde sa bénédiction chaque jour, prenez un moment pour réfléchir sur le monde, ses mystères et ses nombreuses richesses.<br/><br/>Que votre ville soit toujours un foyer accueillant pour ses habitants et une source pour la générosité de l'Église de l'Abondance."
+			                           },
+			                           "bulletin_title": "Ember continues",
+			                           "dialog_title": "Ember Minton, Missionnaire",
+			                           "choice_000": "Nous ferons de notre mieux !"
+                                 	},
+                                 	"msg3": {
+			                           "bulletin_message": {
+			                              "00": "Maintenant, assez de platitudes sombres - allez profiter de la fête ! Je crois que j'ai vu Mer avec un gâteau plus tôt, j'aimerais bien mettre la main dessus..."
+			                           },
+			                           "bulletin_title": "Ember continues",
+			                           "dialog_title": "Ember Minton, Missionnaire",
+			                           "choice_000": "Au Plaisir !"
+                                 	},
+                                 	"msg1": {
+			                           "bulletin_message": {
+			                              "00": "<font size=-1>...et que cette ville deumeure florissante dans la fortune et la prospérité, aussi longtemps que le soleil brillera. Umbasa.</font><br/><br/>Oh ! Mes excuses, j'étais perdu dans mes prières.<br/><br/>Vous avez une ville vraiment merveilleuse ici, et je me sens privilégié d'être le missionnaire pour bénir ce beau monument."
+			                           },
+			                           "bulletin_title": "Ember fait face au sanctuaire",
+			                           "dialog_title": "Ember Minton, Missionnaire",
+			                           "choice_000": "Merci d'être venu"
                                     }
                                  }
                               }
                            },
                            "post_shrine_dialog": {
-							  "dialog_tree_info": {
-								 "dialog_nodes": {
-									"msg1": {
-									   "bulletin_message": {
-										  "00": "Eh bien, maintenant, il semble que mon petit Avant-Poste préféré soit devenu adulte ! Félicitations pour votre nouveau Canton !"
-									   },
-									   "bulletin_title": "C'est encore Mer !",
-									   "dialog_title": "Mer Burlyhands, Compagnon de la Capitale",
-									   "choice_000": "Oh merci !"
-									},
-									"msg2": {
-									   "bulletin_message": {
-										  "00": "A propos, ce monument est spécial, puisqu'il a été béni et tout - vous pouvez construire les autres si vous voulez, mais ce ne seront que de vieilles statues régulières. Ils sont fantaisistes, mais aucun n'est aussi magique.<br/><br/> Cependant, ils font une bien jolie décoration, vous ne pensez pas ?"
-									   },
-									   "bulletin_title": "Mer Continues",
-									   "dialog_title": "Mer Burlyhands, Compagnon de la Capitale",
-									   "choice_000": "Nous avons réussi !"
-									},
-									"msg3": {
-									   "bulletin_message": {
-										  "00": "Merci d'être un groupe de gens si charmants - je suis fier de servir un groupe d'individus aussi sérieux et ambitieux. Vous me rendez fier !<br/><br/>Adieu pour l'instant, et bonne chance à chacun d'entre vous !"
-									   },
-									   "bulletin_title": "Mer Continues",
-									   "dialog_title": "Mer Burlyhands, Compagnon de la Capitale",
-									   "choice_000": "Adieu, Mer ! Ça a été un plaisir !"
+                              "dialog_tree_info": {
+                                  "dialog_nodes": {
+                                 	"msg1": {
+			                           "bulletin_message": {
+			                              "00": "Eh bien, maintenant, il semble que mon petit Avant-Poste préféré soit devenu adulte ! Félicitations pour votre nouveau Canton !"
+			                           },
+			                           "bulletin_title": "C'est encore Mer !",
+			                           "dialog_title": "Mer Burlyhands, Compagnon de la Capitale",
+			                           "choice_000": "Oh merci !"
+                                 	},
+                                 	"msg2": {
+			                           "bulletin_message": {
+			                              "00": "A propos, ce monument est spécial, puisqu'il a été béni et tout - vous pouvez construire les autres si vous voulez, mais ce ne seront que de vieilles statues régulières. Ils sont fantaisistes, mais aucun n'est aussi magique.<br/><br/> Cependant, ils font une bien jolie décoration, vous ne pensez pas ?"
+			                           },
+			                           "bulletin_title": "Mer Continues",
+			                           "dialog_title": "Mer Burlyhands, Compagnon de la Capitale",
+			                           "choice_000": "Nous avons réussi !"
+                                 	},
+                                 	"msg3": {
+			                           "bulletin_message": {
+			                              "00": "Merci d'être un groupe de gens si charmants - je suis fier de servir un groupe d'individus aussi sérieux et ambitieux. Vous me rendez fier !<br/><br/>Adieu pour l'instant, et bonne chance à chacun d'entre vous !"
+			                           },
+			                           "bulletin_title": "Mer Continues",
+			                           "dialog_title": "Mer Burlyhands, Compagnon de la Capitale",
+			                           "choice_000": "Adieu, Mer ! Ça a été un plaisir !"
                                     }
                                  }
                               }
@@ -4235,12 +4235,12 @@
                               "dialog_tree_info": {
                                  "dialog_nodes": {
                                     "msg1": {
-										"bulletin_message": {
-											"00": "Bonjour, maintenant que vous avez une petite ville animée ici, peut-être qu'il est temps de commencer à penser à votre prochaine aventure.<p>Je m'attends à ce que certains de vos citoyens soient impatients de créer une toute nouvelle ville, encore plus grande, et encore mieux, avec toutes les leçons apprises de celui-ci.</p><p><font size=-1><i>La relance vous permet de transporter jusqu'à 3 citoyens, 10 articles et toutes vos recettes débloquées lors du démarrage d'une nouvelle ville.</i></font></p>"
-										},
-									   "bulletin_title": "C'est Mer encore !",
-									   "dialog_title": "Une dernière chose",
-									   "choice_000": "Excitant !"
+                                 		"bulletin_message": {
+                                 			"00": "Bonjour, maintenant que vous avez une petite ville animée ici, peut-être qu'il est temps de commencer à penser à votre prochaine aventure.<p>Je m'attends à ce que certains de vos citoyens soient impatients de créer une toute nouvelle ville, encore plus grande, et encore mieux, avec toutes les leçons apprises de celui-ci.</p><p><font size=-1><i>La relance vous permet de transporter jusqu'à 3 citoyens, 10 articles et toutes vos recettes débloquées lors du démarrage d'une nouvelle ville.</i></font></p>"
+                                 		},
+			                           "bulletin_title": "C'est Mer encore !",
+			                           "dialog_title": "Une dernière chose",
+			                           "choice_000": "Excitant !"
                                     }
                                  }
                               }
@@ -9808,33 +9808,33 @@
                "display_name": "Bannière de Ruse",
                "description": "Permet de savoir que tu es rentré à la maison.",
                "town_bonus_description": "<i>Cette colonie deviendra un carrefour commercial animé.</i><ul><li>Les routes boostent de 3x la vitesse normal</li><li>Les articles se vendent 50% plus chère</li><li>Les commerçants apporteront 2x plus de marchandises et d'or</li></ul>"
-            }
-		 },
-         "town_banner_guardian_token_iconic": {
+            },
+            "town_banner_guardian_token_iconic": {
                "display_name": "Lambeau de la bannière de Ruse",
                "description": "Un lambeau de la bannière de Ruse, portant sa magie"
+            }
 		 },
          "town_banner_might": {
             "town_banner_might_ghost": {
                "display_name": "Bannière de Force",
                "description": "Permet de savoir que tu es rentré",
                "town_bonus_description": "<i>Cette colonie deviendra forte à travers la terre et l'acier.</i><ul><li>L'exploitation minière donne 50% de minerai, de pierre et d'argile supplémentaire</li><li>Les Hearthlings ne se soucient plus des espaces exigus</li></ul>"
-            }
-		 },
-         "town_banner_might_token_iconic": {
+            },
+            "town_banner_might_token_iconic": {
                "display_name": "Lambeau de la bannière de Force",
                "description": "Un lambeau de la bannière de force, portant sa magie."
+            }
 		 },
          "town_banner_nature": {
             "town_banner_nature_ghost": {
                "display_name": "Bannière de Vitalité",
                "description": "Permet de savoir que tu es rentré",
                "town_bonus_description": "<i>Cette colonie vivra en harmonie avec la nature.</i><ul><li>Les arbres produisent 25% de plus de bois</li><li>Les plantes et les cultures poussent 25% plus vite</li><li>Les plantes poussent 2x plus vite que la normal</li></ul>"
-            }
-		 },
+            },
             "town_banner_nature_token_iconic": {
                "display_name": "Lambeau de la bannière de Vitalité",
                "description": "Un lambeau de la bannière de Vitalité, portant sa magie."
+            }
 		 }
       },
       "loot": {
@@ -12200,7 +12200,7 @@
                "description": "Sa flamme apporte une chaude sensation de fierté dans tout ce que nous avons accompli.",
                "recipe_name": "Torche en bois"
             },
-            "valor_torch_plaque_recipe": {
+            "valor_wall_hanging_plaque_recipe": {
                "description": "Tout comme l'épée des Grand-Papa !",
                "recipe_name": "Épée et bouclier en plaque"
             },
