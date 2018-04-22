@@ -9808,33 +9808,33 @@
                "display_name": "Bannière de Ruse",
                "description": "Permet de savoir que tu es rentré à la maison.",
                "town_bonus_description": "<i>Cette colonie deviendra un carrefour commercial animé.</i><ul><li>Les routes boostent de 3x la vitesse normal</li><li>Les articles se vendent 50% plus chère</li><li>Les commerçants apporteront 2x plus de marchandises et d'or</li></ul>"
-            }
-		 },
-         "town_banner_guardian_token_iconic": {
+            },
+            "town_banner_guardian_token_iconic": {
                "display_name": "Lambeau de la bannière de Ruse",
                "description": "Un lambeau de la bannière de Ruse, portant sa magie"
+            }
 		 },
          "town_banner_might": {
             "town_banner_might_ghost": {
                "display_name": "Bannière de Force",
                "description": "Permet de savoir que tu es rentré",
                "town_bonus_description": "<i>Cette colonie deviendra forte à travers la terre et l'acier.</i><ul><li>L'exploitation minière donne 50% de minerai, de pierre et d'argile supplémentaire</li><li>Les Hearthlings ne se soucient plus des espaces exigus</li></ul>"
-            }
-		 },
-         "town_banner_might_token_iconic": {
+            },
+            "town_banner_might_token_iconic": {
                "display_name": "Lambeau de la bannière de Force",
                "description": "Un lambeau de la bannière de force, portant sa magie."
+            }
 		 },
          "town_banner_nature": {
             "town_banner_nature_ghost": {
                "display_name": "Bannière de Vitalité",
                "description": "Permet de savoir que tu es rentré",
                "town_bonus_description": "<i>Cette colonie vivra en harmonie avec la nature.</i><ul><li>Les arbres produisent 25% de plus de bois</li><li>Les plantes et les cultures poussent 25% plus vite</li><li>Les plantes poussent 2x plus vite que la normal</li></ul>"
-            }
-		 },
+            },
             "town_banner_nature_token_iconic": {
                "display_name": "Lambeau de la bannière de Vitalité",
                "description": "Un lambeau de la bannière de Vitalité, portant sa magie."
+            }
 		 }
       },
       "loot": {
@@ -12200,7 +12200,7 @@
                "description": "Sa flamme apporte une chaude sensation de fierté dans tout ce que nous avons accompli.",
                "recipe_name": "Torche en bois"
             },
-            "valor_torch_plaque_recipe": {
+            "valor_wall_hanging_plaque_recipe": {
                "description": "Tout comme l'épée des Grand-Papa !",
                "recipe_name": "Épée et bouclier en plaque"
             },
